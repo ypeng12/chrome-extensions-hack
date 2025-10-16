@@ -20,6 +20,18 @@ You can also use the [Samples](https://developer.chrome.com/docs/extensions/samp
 To experiment with these samples, please clone this repo and use 'Load Unpacked Extension'.
 Read more on [Development Basics](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked).
 
+## Local development
+
+The repository ships with an ESLint configuration that can be used to check every JavaScript
+sample for common issues. After installing dependencies with `npm install`, run the linter with:
+
+```bash
+npm run lint
+```
+
+The command reports any formatting or syntax problems across the repository and exits with a
+non-zero status if any issues are found.
+
 ## Contributing
 
 Please see [the CONTRIBUTING file](/CONTRIBUTING.md) for information on contributing to the `chrome-extensions-samples` project.
